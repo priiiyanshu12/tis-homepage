@@ -1,0 +1,176 @@
+# Tulas International School — Homepage Redesign
+
+A premium, modern, animated homepage redesign for Tulas International School (TIS), created as a frontend development assignment.
+
+## 🌐 Live Website
+
+https://tis-homepage-gray.vercel.app
+
+## 📂 GitHub Repository
+
+https://github.com/priiiyashu12/tis-homepage
+
+## ✨ Features
+
+* Premium modern school website design
+* Responsive layout for desktop, tablet, and mobile
+* Smooth scrolling and section-based navigation
+* Animated UI interactions
+* Campus and sports showcase
+* Academics and student-life sections
+* Rankings and testimonials
+* Collaborations section
+* Contact section with interactive form
+* Admissions application modal
+* Light / Dark theme toggle
+* Responsive mobile navigation
+* Custom cursor and scroll progress indicator
+* Framer Motion animations
+* Image-based cinematic sections with overlays
+
+## 🛠️ Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+* next-themes
+
+## 📁 Project Structure
+
+```text
+tis-respository/
+├── app/
+│   ├── page.tsx
+│   └── globals.css
+│
+├── src/
+│   └── components/
+│       ├── layout/
+│       │   ├── Navbar.tsx
+│       │   └── Footer.tsx
+│       │
+│       ├── sections/
+│       │   ├── Hero.tsx
+│       │   ├── About.tsx
+│       │   ├── Academics.tsx
+│       │   ├── Campus.tsx
+│       │   ├── LifeAtTIS.tsx
+│       │   ├── Sports.tsx
+│       │   ├── TISExperience.tsx
+│       │   ├── Rankings.tsx
+│       │   ├── Testimonials.tsx
+│       │   ├── WhyTIS.tsx
+│       │   ├── Collaborations.tsx
+│       │   ├── LocationContact.tsx
+│       │   └── Admissions.tsx
+│       │
+│       └── ui/
+│           ├── CustomCursor.tsx
+│           ├── ScrollProgress.tsx
+│           ├── ThemeProvider.tsx
+│           └── ThemeToggle.tsx
+│
+├── public/
+│   └── images
+│
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* Node.js
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/priiiyanshu12/tis-homepage.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd tis-respository
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the project in your browser at:
+
+```text
+http://localhost:3000
+```
+
+## 📦 Production Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm start
+```
+
+## 🎨 Design Approach
+
+The redesign focuses on creating a premium and immersive school experience through:
+
+* Cinematic full-width imagery
+* Dark green and warm neutral visual palette
+* Clean typography and spacious layouts
+* Interactive navigation
+* Smooth animations and transitions
+* Section-based storytelling
+* Responsive design across devices
+
+The interface is designed to communicate TIS as a modern, student-focused institution while maintaining a sophisticated visual identity.
+
+## 📱 Responsive Design
+
+The website is optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile devices
+
+The navigation, layouts, cards, forms, and interactive sections adapt to different screen sizes.
+
+## 📝 Notes
+
+* The contact form and admissions form are frontend demonstrations.
+* No real form submission or backend database is connected.
+* Some content such as testimonials and collaboration categories are presented as design/demo content.
+* The project is developed as a frontend assignment and focuses primarily on UI, UX, responsiveness, animation, and component architecture.
+
+## 👨‍💻 Author
+
+**Priyanshu Singh**
+
+Frontend Developer / Full Stack Developer
